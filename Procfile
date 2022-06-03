@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.prout.essai
+heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/"
