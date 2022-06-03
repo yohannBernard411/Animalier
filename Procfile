@@ -1,1 +1,3 @@
-web: java -Dspring.profiles.active=default -Dserver.port=$PORT -jar target/*.jar
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.prout.essai
+server:
+    PORT: 8080
