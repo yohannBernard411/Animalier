@@ -1,1 +1,1 @@
-heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/"
+web: java -Dspring.profiles.active=default -Dserver.port=$PORT -jar target/*.jar
