@@ -1,4 +1,4 @@
-package com.prout.essai;
+package com.prout.essai.controllers;
 
 import java.util.Optional;
 
@@ -11,11 +11,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.prout.essai.models.Photo;
+import com.prout.essai.repository.PhotoRepository;
+
 
 @Controller
 @CrossOrigin(origins = {"http://localhost:4200", "https://animalier.herokuapp.com", "http://localhost:8080"})
 @RequestMapping(path="/photo")
-public class MainController {
+public class PhotoController {
   @Autowired
   private PhotoRepository photoRepository;
 
