@@ -53,6 +53,4 @@ public class Video {
 		this.longitude = longitude;
 	}
 
-	  
-
 }
