@@ -38,7 +38,8 @@ public class PhotoController {
 	  @RequestParam Double num_expo,
 	  @RequestParam Integer denom_expo,
 	  @RequestParam Integer iso,
-	  @RequestParam Double focale
+	  @RequestParam Double focale,
+	  @RequestParam String description
       ) {
 
     Photo photo = new Photo();
@@ -56,6 +57,7 @@ public class PhotoController {
     photo.setDenom_expo(denom_expo);
     photo.setIso(iso);
     photo.setFocale(focale);
+    photo.setDescription(description);
     photoRepository.save(photo);
     return " Photo saved";
   }
@@ -88,7 +90,8 @@ public class PhotoController {
 		  @RequestParam Double num_expo,
 		  @RequestParam Integer denom_expo,
 		  @RequestParam Integer iso,
-		  @RequestParam Double focale
+		  @RequestParam Double focale,
+		  @RequestParam String description
 		  ) {
 	    Photo photo = new Photo();
 	    photo.setId(id);
@@ -105,6 +108,7 @@ public class PhotoController {
 	    photo.setDenom_expo(denom_expo);
 	    photo.setIso(iso);
 	    photo.setFocale(focale);
+	    photo.setDescription(description);
 	    photoRepository.save(photo);
 	    return "The photo is updated";
   }

@@ -23,6 +23,7 @@ public class Photo {
   private Integer denom_expo;
   private Integer iso;
   private Double focale;
+  private String description;
   
 	public Integer getId() {
 		return id;
@@ -108,5 +109,12 @@ public class Photo {
 	public void setFocale(Double focale) {
 		this.focale = focale;
 	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	
 
 }
