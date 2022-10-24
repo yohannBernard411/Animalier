@@ -28,7 +28,7 @@ This Back-end cotains:
 ## Components
 
 Most of the front end components come from [Material Angular](https://material.angular.io/).
-The Google map display uses the [Angular Google Maps] (https://angular-maps.com/) API. This display is simplified by the GPS coordinates of each photo. The videos are played by the [youtube-player] (https://www.npmjs.com/package/@angular/youtube-player) component.
+The Google map display uses the [Angular Google Maps](https://angular-maps.com/) API. This display is simplified by the GPS coordinates of each photo. The videos are played by the [youtube-player](https://www.npmjs.com/package/@angular/youtube-player) component.
 
 ## Responsive
 
