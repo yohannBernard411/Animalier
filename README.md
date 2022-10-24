@@ -15,7 +15,7 @@ This Back-end cotains:
 
 1. [Controllers](https://github.com/yohannBernard411/animalier/tree/main/src/main/java/com/generique/essai/controllers).
 2. [Models](https://github.com/yohannBernard411/animalier/tree/main/src/main/java/com/generique/essai/models).
-2. [Repository](https://github.com/yohannBernard411/animalier/tree/main/src/main/java/com/generique/essai/repository).
+2. [Repositories](https://github.com/yohannBernard411/animalier/tree/main/src/main/java/com/generique/essai/repository).
 
 
 ## Table of Contents
@@ -28,7 +28,7 @@ This Back-end cotains:
 ## Components
 
 Most of the front end components come from [Material Angular](https://material.angular.io/).
-The Google map display uses the Angular Google Maps (AGM) API. This display is simplified by the GPS coordinates of each photo. The videos are played by the youtube-player component.
+The Google map display uses the [Angular Google Maps] (https://angular-maps.com/) API. This display is simplified by the GPS coordinates of each photo. The videos are played by the [youtube-player] (https://www.npmjs.com/package/@angular/youtube-player) component.
 
 ## Responsive
 
