@@ -15,7 +15,7 @@ import com.prout.essai.models.Materiel;
 import com.prout.essai.repository.MaterielRepository;
 
 @Controller
-@CrossOrigin(origins = {"http://localhost:4200", "https://animalier.herokuapp.com", "http://localhost:8080"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://www.wildlifeclubphoto.fr", "http://localhost:8080"})
 @RequestMapping(path="/materiel")
 public class MaterielController {
 	@Autowired
