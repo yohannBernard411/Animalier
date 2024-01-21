@@ -15,7 +15,7 @@ import com.prout.essai.models.Video;
 import com.prout.essai.repository.VideoRepository;
 
 @Controller
-@CrossOrigin(origins = {"http://localhost:4200", "https://animalier.herokuapp.com", "http://localhost:8080"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://www.wildlifeclubphoto.fr", "http://localhost:8080"})
 @RequestMapping(path="/video")
 public class VideoController {
 	
