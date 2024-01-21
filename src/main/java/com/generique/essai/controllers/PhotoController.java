@@ -16,7 +16,7 @@ import com.prout.essai.repository.PhotoRepository;
 
 
 @Controller
-@CrossOrigin(origins = {"http://localhost:4200", "https://animalier.herokuapp.com", "http://localhost:8080"})
+@CrossOrigin(origins = {"http://localhost:4200", "https://www.wildlifeclubphoto.fr", "http://localhost:8080"})
 @RequestMapping(path="/photo")
 public class PhotoController {
   @Autowired
