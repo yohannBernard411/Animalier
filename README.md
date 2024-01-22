@@ -40,4 +40,4 @@ This site is bound to evolve, that's why I added a contact section, where you ca
 
 ## Application
 
-You can test my Animalier application [here](https://www.wildlifeclubphoto.fr/home).
+You can test my Animalier application [here](https://www.wildlifeclubphoto.fr).
